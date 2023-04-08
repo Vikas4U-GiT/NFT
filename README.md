@@ -1,3 +1,3 @@
 # Welcome to the OpenSea Inspire New 
-Using THIRDWEB,METAMASK WALLE5T
+Using THIRDWEB,METAMASK WALLET
 
