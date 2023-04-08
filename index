@@ -1,0 +1,15 @@
+
+interface ERC721 {
+  function ownerOf(uint256 tokenId) external view returns (address);
+  function transferFrom(address from, address to, uint256 tokenId)
+  external payable; ...
+}
+
+interface ERC1155 {
+   function balanceOf(address owner, uint256 id) external view returns
+   (address);
+   function balanceOfBatch(address calldata owners, uint256 calldata
+   ids) external view returns (uint256 memory);
+   function transferFrom(address from, address to, uint256 id, uint256
+   quantity) external payable; ...
+}
